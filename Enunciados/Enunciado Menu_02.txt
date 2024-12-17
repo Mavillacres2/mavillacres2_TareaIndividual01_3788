@@ -1,0 +1,63 @@
+realizar un programa que permita desplegar en pantalla un MENU con las 
+siguientes opciones:
+
+    MENU
+=============
+1 fibonacy
+2 cubo
+3 fraccionarios 
+S. salir
+
+
+	Escoja una opcion.....????
+
+
+
+//*******************************
+OPCION 1)  Ingresar un numero entrero posivo con el siguiente rango
+ 	   1<= N <= 50  y desplegar en pantalla los N primeros numeros de fibonacy
+
+    Fn= Fn-1  +  Fn-2
+        donde  Fn es el numero n-esimo de fibonacy
+
+*  Los dos primeros numeros son iguales 1 
+*  f1=f2=1
+*  Por lo tanto: 
+ 	  f3= f2+f1= 1+1 =2 
+	  f4= f3+f2= 2+1 =3
+	  f5= f4+f3= 3+2 =5
+
+
+ *  Es decir los numeros de fibonacy forman una serie en la que cada numero es igual a la suma
+    de los 2 numeros anteriores.
+
+
+//*************************
+
+OPCION 2)  Defina una constante simbolica MAX 1000000 y despliege en pantAlla todos los numeros 
+enteros entre 1 y MAX que cumplan con la siguiente condicion:
+
+    * La suma del cubo de sus digitos es igual al mismo numero
+ 
+      Ejemplo:  
+               149    =  1 al cubo  +  4 al cubo  +  9 al cubo
+
+
+///*************************
+OPCION 3) 
+
+Leer 4 numeros fracionarios q cumplan con la siguiente definicion:
+
+*  El numerador y el denominador son numeros enteros ,
+*  Solo el numerador puede ser positivo o negativo (es decir el donimador siempre es positivo)
+ 
+CALCULAR LA SIGUIENTE EXPRESION MATEMATICA:
+ 
+      A + B * C - D
+ 
+
+ 
+Nota 
+==============
+1- Desarrolle scrpts escritos en PHP (No utilice JavaScript)
+2- validar cualquier ingreso de datos 
